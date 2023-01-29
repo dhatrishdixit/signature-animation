@@ -1,0 +1,28 @@
+#signature{
+    stroke-dasharray: 1063;
+    stroke-dashoffset: 1063;
+    animation: sign 4s ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes sign {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+    border:0;
+    background-color: black;
+    color:white;
+
+}
+svg{
+    background-color: black;
+    color:white;
+}
